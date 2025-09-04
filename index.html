@@ -5,27 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chill Schooling</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Chill Schooling</h1>
-        <p>Learn, Chill, Excel - Your Ultimate Educational Companion</p>
+        <div class="hero">
+            <h1>Welcome to Chill Schooling</h1>
+            <p>Learn, Chill, Excel - Your Ultimate Educational Companion</p>
+            <a href="#classes" class="cta-button">Start Learning</a>
+        </div>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Classes</a></li>
+                <li><a href="#classes">Classes</a></li>
                 <li><a href="#">Student Dashboard</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Welcome to Chill Schooling</h2>
-            <p>Explore classes, subjects, and resources tailored to your learning journey.</p>
+        <section id="introduction">
+            <h2>Explore a World of Learning</h2>
+            <p>Chill Schooling offers a stress-free, engaging learning experience for students from grades 6-12. Browse through our classes and unlock a treasure trove of knowledge.</p>
         </section>
-        <section>
+        <section id="classes">
             <h2>Classes</h2>
-            <ul>
+            <ul class="class-list">
                 <li><a href="#">Class 6</a></li>
                 <li><a href="#">Class 7</a></li>
                 <li><a href="#">Class 8</a></li>
@@ -38,6 +42,12 @@
     </main>
     <footer>
         <p>&copy; 2025 Chill Schooling. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a> | 
+            <a href="#">Contact Us</a> | 
+            <a href="#">About</a>
+        </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
